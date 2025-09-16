@@ -1,6 +1,18 @@
 **Work-case 1**  
 1\. Опишіть для чого використовують git, які основні дії та команди в ньому виконують.  
 
+<h2> Git is a version control system that helps developers </h2>
+
+ - track changes in files over time,
+
+ - collaborate on code with a team,
+
+ - restore previous versions if needed,
+
+ - work on different features in parallel using branches.
+
+<h2> Main git commands </h2>
+
 "This task does Andrii Berdiaiev"
 
 2\. Що таке "комміт", як він дозволяє відслідковувати зміни у файлах?
