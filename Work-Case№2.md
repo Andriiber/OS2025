@@ -144,7 +144,7 @@ Below is a comparison of two popular Linux desktop environments (DEs) — **GNOM
 
 ---
 
-## Pros and Cons
+## Plus and Minuses
 
 ### GNOME
 
