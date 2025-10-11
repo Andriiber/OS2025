@@ -130,6 +130,18 @@
 
 <img width="297" height="277" alt="image" src="https://github.com/user-attachments/assets/1755805c-aa42-4e57-b107-d350b5035b58" />
 
+(Те ж саме я зробив для клона)
+
+6. Для перевірки завантажуємо в обрану папку фото або якийсь інший файл щоб потім перенести його на віртуальні машини
+
+Вводимо наступні команди для двох віртуальних машин:
+
+<img width="664" height="65" alt="image" src="https://github.com/user-attachments/assets/62ce1d96-3551-4757-9c26-b023b3795aff" />
+
+Тепер цей файл є на обох віртуальних машинах:
+
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/24ce30c1-fc81-4f8f-ba04-860450877763" />
+
 
 
 
