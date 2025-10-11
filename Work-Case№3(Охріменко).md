@@ -194,3 +194,63 @@
 <img width="799" height="674" alt="image" src="https://github.com/user-attachments/assets/a53d6fa9-22fe-43bf-b070-89936f0188e1" />
 
 
+<h2>Glossary of terms</h2>
+
+
+Virtual Machine (VM) — a software environment that emulates a physical computer and allows running another operating system inside the main one.
+
+Host OS — the main operating system installed on the physical computer.
+
+Guest OS — the operating system running inside the virtual machine.
+
+VirtualBox — a program for creating, configuring, and managing virtual machines.
+
+Virtual Machine Cloning — the process of creating an exact copy of an existing virtual machine with all its files and settings.
+
+Full Clone — an independent copy of a virtual machine with its own virtual disk.
+
+Linked Clone — a dependent copy that shares the base disk with the original virtual machine.
+
+Virtual Machine Export — creating an OVA or OVF file for transferring or backing up a virtual machine.
+
+Virtual Machine Import — restoring or deploying a virtual machine from an exported image.
+
+NAT (Network Address Translation) — a network mode where the VM accesses the Internet through the host’s IP address but is not directly visible on the network.
+
+**Bridged Adapter** — connects the VM directly to the host’s physical network, giving it its own IP address on the same subnet as the host.
+
+Host-only Adapter — creates an isolated network between the host and the VM, without Internet access.
+
+Internal Network — an isolated network used for communication between multiple VMs inside VirtualBox, without access to the host.
+
+Shared Folder — a directory shared between the host and guest systems, used for file exchange.
+
+Drag & Drop — a feature that allows dragging files between the host and the virtual machine using the mouse.
+
+Shared Clipboard — allows copying and pasting text or objects between the host and the virtual machine.
+
+OVF/OVA — file formats used for exporting and importing virtual machines (OVA is a single archive; OVF is a set of files).
+
+VBox Guest Additions — a package of drivers and tools that improves integration between the host and guest OS (graphics, shared folders, clipboard, etc.).
+
+Mounting — the process of attaching an external folder or device to the file system so it becomes accessible.
+
+Bidirectional Mode — a mode where data transfer or clipboard sharing works both ways between the host and the VM.
+
+IP Address — a unique identifier assigned to a device in a network, used for data exchange.
+
+Port — a logical number that identifies a specific service or process in a network connection.
+
+CLI (Command Line Interface) — a text-based interface used to control the system by typing commands.
+
+
+
+<h2>Conclusion</h2>
+
+During Work-Case №3, a clone of the virtual machine was created, network interaction between the original and the clone was configured, and Internet access was provided for both systems.
+Different VirtualBox network modes (NAT, Bridged, Host-only, Internal Network) and their features were examined.
+File sharing and message exchange between virtual machines and the host OS were successfully implemented.
+As a result, practical skills in managing virtual environments, configuring networks, and organizing data exchange between systems were acquired.
+
+
+
