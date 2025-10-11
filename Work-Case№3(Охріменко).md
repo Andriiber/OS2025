@@ -143,7 +143,54 @@
 <img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/24ce30c1-fc81-4f8f-ba04-860450877763" />
 
 
-
-
-
 4. Яким чином можна організувати обмін інформацією між вашою основною ОС (наприклад Windows) та віртуальними ОС? Скопіюйте довільний аудіо-файл з вашої основної ОС на робочий стіл віртуальної ОС та її клона. Як зробити зворотну дію, коли треба документ з робочого столу віртуальної ОС скопіювати до вашої основної робочої ОС?
+
+Варіант 1 — Спільна папка VirtualBox
+
+У налаштуваннях ВМ → Shared Folders → Add Folder
+
+    Виберіть на Windows директорію (наприклад, D:\SharedFiles)
+    
+    У ВМ:
+    
+    sudo mount -t vboxsf SharedFiles ~/Desktop/
+    
+    
+    Скопіюйте:
+    
+    Аудіофайл із Windows → D:\SharedFiles
+    
+    Він з’явиться на робочому столі ВМ.
+
+Варіант 2 — Drag & Drop
+
+    У налаштуваннях ВМ → General → Advanced
+    
+    Увімкніть:
+    
+    Shared Clipboard: Bidirectional
+    
+    Drag’n’Drop: Bidirectional
+    
+    Тепер можна просто перетягувати файли мишкою між вікнами Windows ↔ ВМ.
+
+Варіант 3 — Через мережу
+    
+    Встановіть тип мережі: Bridged Adapter
+    
+    У Windows і ВМ відкрийте загальні папки через:
+    
+    Windows: \\192.168.x.x
+    
+    Linux ВМ:
+    
+    smbclient //192.168.x.x/Shared -U username
+    
+    
+    Копіюйте файли в обидві сторони.
+
+В мне виникли проблеми з іншими способами тому я переніс файл задопомогою спільної папки
+
+<img width="799" height="674" alt="image" src="https://github.com/user-attachments/assets/a53d6fa9-22fe-43bf-b070-89936f0188e1" />
+
+
