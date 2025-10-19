@@ -172,40 +172,36 @@ sudo apt install vlc
 
 <h1>Glossary of terms</h1>
 
+Package (Пакет) – an archive containing software (executables, libraries, configuration files, installation/removal scripts, etc.) required to install a program on a Linux system.
 
-Пакет – "Package" – an archive containing software (executables, libraries, configuration files, installation/removal scripts, etc.) required to install a program on a Linux system.
+Repository (Репозиторій) – a remote storage of packages, available via the internet or a local network, containing available software, metadata, dependencies, and digital signatures.
 
-"Репозиторій" – "Repository" – a remote storage of packages, available via the internet or a local network, containing available software, metadata, dependencies, and digital signatures.
+Package manager (Менеджер пакетів) – a tool for installing, updating, removing, and managing software packages on a Linux system.
 
-"Менеджер пакетів" – "Package manager" – a tool for installing, updating, removing, and managing software packages on a Linux system.
+Dependencies (Залежності) – other software packages required for a program to work properly.
 
-"Залежності" – "Dependencies" – other software packages required for a program to work properly.
+Cache (Кеш) – temporary storage of downloaded packages to speed up future installations.
 
-"Кеш" – "Cache" – temporary storage of downloaded packages to speed up future installations.
+Sandbox (Пісочниця) – an isolated environment where applications can run without affecting the rest of the system.
 
-"Пісочниця" – "Sandbox" – an isolated environment where applications can run without affecting the rest of the system.
+App store / Software center (Магазин додатків) – a graphical interface for browsing, installing, and managing software packages.
 
-"Магазин додатків" – "App store / Software center" – a graphical interface for browsing, installing, and managing software packages.
+Package format (Формат пакета) – the specific file type in which software is packaged for installation (e.g., .deb, .rpm, .pkg.tar.zst).
 
-"Формат пакета" – "Package format" – the specific file type in which software is packaged for installation (e.g., .deb, .rpm, .pkg.tar.zst).
+System update (Оновлення системи) – the process of updating all installed packages to their latest versions.
 
-"Оновлення системи" – "System update" – the process of updating all installed packages to their latest versions.
+Package removal (Видалення пакета) – the process of uninstalling a package, optionally keeping or removing its configuration files.
 
-"Видалення пакета" – "Package removal" – the process of uninstalling a package, optionally keeping or removing its configuration files.
+Package search (Пошук пакета) – looking for a specific package in repositories.
 
-"Пошук пакета" – "Package search" – looking for a specific package in repositories.
+Package installation (Встановлення пакета) – downloading and installing a package from a repository or local file.
 
-"Встановлення пакета" – "Package installation" – downloading and installing a package from a repository or local file.
+Cache cleaning (Очищення кешу) – removing temporary downloaded package files to free up space.
 
-"Очищення кешу" – "Cache cleaning" – removing temporary downloaded package files to free up space.
+Automatic dependency resolution (Автоматичне встановлення залежностей) – installing all required packages automatically when installing a program.
 
-"Автоматичне встановлення залежностей" – "Automatic dependency resolution" – installing all required packages automatically when installing a program.
+Graphical environment (Графічне середовище) – a visual interface for interacting with the system, as opposed to the command line.
 
-"Графічне середовище" – "Graphical environment" – a visual interface for interacting with the system, as opposed to the command line.
+Terminal (Термінал) – a text-based interface for entering commands directly into the system.
 
-"Термінал" – "Terminal" – a text-based interface for entering commands directly into the system.
-
-"Метадані пакета" – "Package metadata" – information about a package, such as version, dependencies, description, and maintainer.
-
-Якщо хочеш, я можу ще зробити окремо **словник для команд APT** у такому ж форматі. Це буде дуже зручно для повторення. Хочеш, щоб я це зробив?
-
+Package metadata (Метадані пакета) – information about a package, such as version, dependencies, description, and maintainer.
