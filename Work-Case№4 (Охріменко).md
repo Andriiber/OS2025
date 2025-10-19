@@ -207,7 +207,7 @@ Terminal (Термінал) – a text-based interface for entering commands dir
 Package metadata (Метадані пакета) – information about a package, such as version, dependencies, description, and maintainer.
 
 
-Conclusion
+<h1>Conclusion</h1>
 
 In this work-case, I became familiar with the basics of working with packages and package managers in Linux. Key concepts were defined: a package as an archive containing software, a repository as a remote storage of packages, and a package manager as a tool for installing, updating, and removing programs.
 
