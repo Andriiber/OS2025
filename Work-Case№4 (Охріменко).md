@@ -205,3 +205,12 @@ Graphical environment (Графічне середовище) – a visual inter
 Terminal (Термінал) – a text-based interface for entering commands directly into the system.
 
 Package metadata (Метадані пакета) – information about a package, such as version, dependencies, description, and maintainer.
+
+
+Conclusion
+
+In this work-case, I became familiar with the basics of working with packages and package managers in Linux. Key concepts were defined: a package as an archive containing software, a repository as a remote storage of packages, and a package manager as a tool for installing, updating, and removing programs.
+
+Practically, new programs were installed via the terminal: the VLC media player and a programming environment for C++. I also explored installing programs through graphical app stores, which is convenient for users who prefer a visual interface.
+
+Thus, knowledge of working with packages and package managers allows effective software management in Linux, keeps the system up-to-date, and helps avoid dependency issues. This is an important skill for any Linux user or administrator.
