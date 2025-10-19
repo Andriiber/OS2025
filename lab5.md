@@ -1,4 +1,4 @@
-**ЗВІТ ПО ВИКОНАННЮ ЛАБОРАТОРНОЇ РОБОТИ №4**
+**ЗВІТ ПО ВИКОНАННЮ ЛАБОРАТОРНОЇ РОБОТИ №5**
 
 з дисципліни: «Операційні системи»
 
@@ -151,67 +151,81 @@
 3. Робота в в терміналі (закріплення практичних навичок) обов'язково представити свої скріншоти:
 
 - Визначте ваш поточний робочий каталог;
+<img width="227" height="85" alt="image" src="https://github.com/user-attachments/assets/03e2ee43-457d-4dc9-b4fa-13a5da480ff1" />
 
 - Перейдіть до кореневого каталогу та визначте Ваш поточний робочий каталог (дві команди);
+<img width="238" height="85" alt="image" src="https://github.com/user-attachments/assets/505ebd9e-d9af-45c5-ba63-130295eae397" />
 
 - Перегляньте вміст поточного каталогу у довгому форматі (скористайтесь відповідним ключем команди ls);
+<img width="468" height="446" alt="image" src="https://github.com/user-attachments/assets/915fd3c2-736b-4c74-9709-ab1c6aeb975f" />
 
 - Перейдіть до каталогу /usr/share та визначте Ваш поточний робочий каталог (дві команди)
+<img width="308" height="86" alt="image" src="https://github.com/user-attachments/assets/f757a3ff-4b03-4b3e-b0c5-f5f2b0811b1c" />
 
 - Перегляньте вміст поточного каталогу включаючи і приховані файли (hidden files) (скористайтесь відповідним ключем команди ls);
+<img width="507" height="454" alt="image" src="https://github.com/user-attachments/assets/a2d23fef-5ba2-4c9a-acd2-6287a865fe11" />
 
 - *Перейдіть до каталогу /etc;
+<img width="333" height="43" alt="image" src="https://github.com/user-attachments/assets/a6e48525-db37-436f-9b3f-45a59941e5a2" />
 
 - *Перегляньте вміст даного каталогу, але щоб виводило тільки назви файлів, що починаються з літери вашого імені;
+<img width="536" height="67" alt="image" src="https://github.com/user-attachments/assets/33ff9fe9-534c-4a8d-aa24-f23846ca888e" />
 
 - *Перегляньте вміст даного каталогу, але щоб виводило тільки файли, назви яких складаються з 6 літер;
+<img width="646" height="384" alt="image" src="https://github.com/user-attachments/assets/bb683055-324b-49e5-8bb4-6c4de17d4033" />
 
 - **Перегляньте вміст даного каталогу, але щоб виводило тільки файли, назви яких закінчуються на літери ваших імен, наприклад якщо ваші імена Ivan, Anna, Maks, то вибірку робиму, щоб назви файлів закінчувались на літери [i,a,m];
+<img width="497" height="90" alt="image" src="https://github.com/user-attachments/assets/382873bf-6c0e-4d25-bd05-4b762897b9e3" />
 
 - **Перейдіть до домашнього каталогу поточного користувача та перегляньте його вміст у рекурсивному (зворотному до алфавітного) форматі (виконати цю дію через конвеєр команд);
+<img width="332" height="427" alt="image" src="https://github.com/user-attachments/assets/d6b1bf92-cdb2-4d3a-a80d-eba978baadbb" />
+
+<img width="281" height="299" alt="image" src="https://github.com/user-attachments/assets/c8e8fd27-4a08-41ea-945f-c3784730be75" />
 
 - В поточній директорії створити директорію з назвою вашої групи;  
+<img width="353" height="52" alt="image" src="https://github.com/user-attachments/assets/ba8f102b-d6e0-4c22-82fd-27a33ae14808" />
 
 - Переглянути оновлений вміст домашнього каталогу поточного користувача. Скористайтесь ключем -r команди ls, яку інформацію ви отримаєте?
+<img width="413" height="95" alt="image" src="https://github.com/user-attachments/assets/b0623b51-10e2-46ca-8ea5-77f07a3f5b81" />
 
 - Перейдіть у створену вами директорію з назвою Вашої групи та створіть у ній порожній файл lab5
+<img width="357" height="63" alt="image" src="https://github.com/user-attachments/assets/c0190d80-d706-4332-9733-bd6da8d23e95" />
 
 - Створити в даній директорії 3 директорії з прізвищами студентів вашої команди surname1, surname2, surname3 (команда mkdir мульти аргумента, тому всі три каталоги можна створити однією командою);
+<img width="427" height="46" alt="image" src="https://github.com/user-attachments/assets/aad15e19-4115-47e6-b245-065162315383" />
 
 - Перейдіть у перший підкаталог surname1 та створіть порожній файл з ім'ям першого студента name1;  
+<img width="455" height="63" alt="image" src="https://github.com/user-attachments/assets/71b8827e-bc4d-4c69-90b9-dacbcdda235a" />
 
 - За допомогою команди echo "Hello, my name is Name1" > name1 внесіть у цей файл дані про студента (символ > дозволяє вивід команди echo перенаправити одразу у файл name1;
+<img width="668" height="48" alt="image" src="https://github.com/user-attachments/assets/1ce6b5b1-104a-427b-bd3b-73ae942124ad" />
 
 - Перегляньте вміст файлу name1 за допомогою команди cat name1 (має містити щойно введену Вами інформацію)
+<img width="427" height="65" alt="image" src="https://github.com/user-attachments/assets/d87f436f-23c9-4818-9a2e-6473a2b73a24" />
 
 - Зробіть копію першого файлу name1 та перейменуйте її у файл з другим ім'ям студенту Вашої команди name2;
+<img width="550" height="43" alt="image" src="https://github.com/user-attachments/assets/c957e896-0c47-4246-9eda-8ddccf069a48" />
 
 - Перегляньте вміст каталогу, обидва файли мають з'явитися; 
+<img width="364" height="67" alt="image" src="https://github.com/user-attachments/assets/8e09bf24-0466-4be2-ad54-78c4e708d612" />
 
 - Перегляньте вміст другого файлу cat name2 (він має поки що містити повну копію вмісту файлу name1)  
+<img width="454" height="72" alt="image" src="https://github.com/user-attachments/assets/d2431701-96c5-4262-82e3-3d41e31f8d2a" />
 
 - Замініть зміст файлу name2, щоб він містив відповідне ім'я другого студента за допомогою команди echo "Hello, my name is Name2" > name2
+<img width="676" height="17" alt="image" src="https://github.com/user-attachments/assets/61734430-300c-4404-9fc7-39abc740ba82" />
 
 - Перегляньте вміст другого файлу cat name2 (він вже має містити оновлену інформацію)
+<img width="416" height="63" alt="image" src="https://github.com/user-attachments/assets/480794e9-e310-42e3-8352-3c51766fb860" />
 
 - Перемістіть файл name2 у директорію surname2;
-
-- Зробіть копію першого файлу name1 та перейменуйте її у файл з третім ім'ям студенту Вашої команди name3;
-
-- Перемістіть файл name3 у директорію surname3;
-
-- Перейдіть до директорії  surname3;
-
-- Перегляньте вміст третього файлу командою cat name3 (він має містити дані про другого студента)
-
-- Замініть зміст файлу name3, щоб він містив відповідне ім'я третього студента за допомогою команди echo "Hello, my name is Name3" > name3
-
-- Перегляньте вміст файлу за допомогою  cat name3 (він вже має містити оновлену інформацію) 
+<img width="517" height="42" alt="image" src="https://github.com/user-attachments/assets/51167f99-4d21-4da6-acb2-763d48b98ab3" />
 
 - Поверніться до домашнього каталогу користувача;
+<img width="356" height="48" alt="image" src="https://github.com/user-attachments/assets/469a9a8a-6c0f-4961-bbba-f76f67bd1871" />
 
 - **Перегляньте вміст даного каталогу, але щоб виводило тільки Ваш підкаталог з назвою групи та весь його вміст (підкаталоги surname1, surname2, surname3 та файли name1, name2, name3) до того ж файли та катлоги були відкоремлені 
-кольорами (скористайтесь відповідним ключем -R команди ls та не забудьте використати спеціальний glob-шаблон [імя каталогу])
+<img width="352" height="218" alt="image" src="https://github.com/user-attachments/assets/8fdb9fe5-1898-4d1e-a16f-1db171a6cb91" />
 
 Примітка: Назви підкаталогів surname1, surname2, surname3 та файлів name1, name2, name3 замініть на свої 
        
