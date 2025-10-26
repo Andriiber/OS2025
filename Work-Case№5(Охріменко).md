@@ -26,6 +26,73 @@ Work-case 5
 
 2. Підключіть до вашої віртуальної машини зі встановленою ОС Linux флешку та принтер (за можливості) та через графічний інтерфейс скопіюйте один файл з флешки на віртуальну машину та роздрукуйте його (такі ж самі дії повторіть, але з іншим файлом через команди в терміналі).
 
+**Флешка:**
+
+1. Виберіть свою віртуальну машину (Linux) у списку, але не запускайте її.
+
+2. Натисніть:
+Налаштування → USB
+
+3. Увімкніть:
+
+“Увімкнути контролер USB”
+
+Виберіть USB 2.0 (EHCI) або USB 3.0 (xHCI) — залежно від вашої флешки.
+
+4. Натисніть + (додати новий фільтр) і виберіть флешку зі списку.
+
+Це створить правило, за яким VirtualBox автоматично “захопить” флешку при запуску ВМ.
+
+**Принтер:**
+  1. Заходимо в налоаштування:
+  
+  <img width="1352" height="759" alt="image" src="https://github.com/user-attachments/assets/810495ab-6ae4-461f-8208-31c2e67df0bf" />
+  
+  2. Переходимо в вкладку USB й додаємо наш принтер:
+  
+  <img width="1352" height="761" alt="image" src="https://github.com/user-attachments/assets/dcc3fa7f-01e8-4020-aa6c-9bfc44636208" />
+  
+  3. Далі запускаємо віртувльну машину. На панелі зверху обираємо "Пристрої" -> "USB" й обираємо наш принтер.
+  
+  <img width="1352" height="476" alt="image" src="https://github.com/user-attachments/assets/b18062d5-bcba-4091-8b85-ad58fa06394c" />
+  
+  4. Заходимо в налаштування:
+  
+  <img width="1216" height="684" alt="image" src="https://github.com/user-attachments/assets/9a7af892-5871-4a79-9067-bf70cbe6b0c0" />
+  
+  5. Заходимо в вкладку "Принтери" 1 якщо принтер не підключився сам то нажимаємо "Додати принтер":
+  
+  <img width="1219" height="689" alt="image" src="https://github.com/user-attachments/assets/4593acd4-d418-49b9-ada1-4316d8859f05" />
+  
+  6. Обираємо потрібний:
+  
+  <img width="1218" height="691" alt="image" src="https://github.com/user-attachments/assets/14e7810f-c234-4066-891b-c55a2ed9632c" />
+  
+  7. Далі потрібно встановити драйвера. Якщо потрібних немає в базі данних лінукс тоді це потрібно буде зробити вручну через браузер.
+  
+  8. Обираємо потрібне фото:
+  
+  <img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/3188006f-7dcd-42f2-9650-b2d586f6a0c4" />
+  
+  9. Натискаємо на три полоски зверху щоб відкрити меню й обираємо "Print"
+  
+  <img width="1215" height="683" alt="image" src="https://github.com/user-attachments/assets/f920930c-98cf-4687-9f2a-10b608511e2a" />
+  
+  10. Обираємо потрібний принтер:
+  
+  <img width="1218" height="686" alt="image" src="https://github.com/user-attachments/assets/76cfb393-b976-4a14-a558-6d66c1f96d71" />
+  
+  11. Отримуємо результат:
+  
+  <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/966f9edb-fb3a-4c58-b874-5856409428e9" />
+
 
 
 Примітка: Якщо якісь завдання не вийшло зробити, то хоча б опишіть методику їх виконання.
+
+
+
+
+
+
+
