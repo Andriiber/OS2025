@@ -109,6 +109,19 @@
   
   <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/966f9edb-fb3a-4c58-b874-5856409428e9" />
 
+* Через термінал:
+
+     ```bash
+     lp файл.txt
+     ```
+
+     або
+
+     ```bash
+     lpr файл.txt
+     ```
+
+
 <h1>Glossary of terms</h1>
 
 
