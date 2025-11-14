@@ -97,4 +97,44 @@ Fish (Friendly Interactive Shell)
 <img width="750" height="180" alt="image" src="https://github.com/user-attachments/assets/58341645-da55-4197-9d5f-ba614835ff31" />
 <img width="459" height="70" alt="image" src="https://github.com/user-attachments/assets/86d4e428-4924-4d01-84db-752acc03275b" />
 
+<h1>Glossary of terms</h1>
 
+Bash (Bourne Again Shell) - Основний shell у Linux; підтримує скрипти, команди та автоматизацію.
+
+Zsh (Z Shell) - Розширений shell з покращеним автодоповненням, налаштуваннями та плагінами.
+
+Fish (Friendly Interactive Shell) - Зручний shell із підсвічуванням, підказками та простим налаштуванням.
+
+Group - Об’єднання користувачів, яке дозволяє керувати дозволами.
+
+Technical Support Group - Група працівників технічної підтримки та адміністраторів.
+
+Developers Group - Група розробників та технічних спеціалістів.
+
+Financiers Group - Група бухгалтерів, економістів та фінансових співробітників.
+
+Founders Group - Група управлінців і керівництва.
+
+Guests Group - Група тимчасових або обмежених користувачів.
+
+UID (User ID) - Унікальний числовий ідентифікатор користувача.
+
+/etc/passwd - Системний файл, що зберігає дані про всіх користувачів.
+
+/etc/group - Файл із записами всіх груп у системі.
+
+useradd - Команда для створення нового користувача.
+
+usermod - Команда для зміни параметрів існуючого користувача.
+
+userdel - Команда для видалення користувача з системи.
+
+groupadd - Команда для створення нової групи.
+
+chsh (Change Shell) - Команда для зміни shell за замовчуванням.
+
+<h1>Conclusion</h1>
+
+During the completion of this work, the main tools for managing users, groups, and command-line shells in the Ubuntu operating system were studied and applied. Additional shells, specifically Zsh and Fish, were installed, their functionalities were analyzed, and compared with the default Bash. Ten new users were created and assigned to the appropriate groups according to the task requirements. For each group, the required shell was configured or access to the shell was restricted as needed.
+
+Basic commands were demonstrated for different types of users within their respective shells, which allowed verifying the correctness of the system configuration. Practical experience was gained using commands such as useradd, usermod, groupadd, passwd, chsh, as well as understanding the structure of system files /etc/passwd and /etc/group.
