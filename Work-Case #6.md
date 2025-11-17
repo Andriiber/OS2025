@@ -81,3 +81,10 @@ ksh (KornShell)
 <p align="center"><img width="916" height="957" alt="image" src="https://github.com/user-attachments/assets/736320c1-b2db-433c-b2e5-cf4d5d52907f" /></p>
 <p align="center">Демонстрація роботи кожної групи користувачів </p>
 
+## Conclusion
+
+During the completion of this Work-Case, full user and group management was implemented within a Linux operating system. Three different command interpreters — bash, ksh, and dash — were installed and configured, with their basic capabilities demonstrated. Five separate user groups and exactly ten user accounts (two per group) were created. Each user was assigned an appropriate shell according to their role, while restricted groups were configured with the nologin shell to prevent system access.
+
+Passwords for all users were set manually, enabling verification of authentication procedures. The functionality of each shell environment was demonstrated by executing basic system commands. Additional verification was performed using system files such as /etc/passwd and /etc/group, as well as through Linux user-management commands.
+
+This assignment provided practical experience with essential Linux administration tools, including user creation, group management, shell assignment, and access control verification. The work builds fundamental system administration skills and strengthens understanding of how Unix-like systems organize and manage user environments.
