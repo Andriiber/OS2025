@@ -81,7 +81,18 @@ ksh (KornShell)
 <p align="center"><img width="916" height="957" alt="image" src="https://github.com/user-attachments/assets/736320c1-b2db-433c-b2e5-cf4d5d52907f" /></p>
 <p align="center">Демонстрація роботи кожної групи користувачів </p>
 
-## Conclusion
+Використані команди у ворккейсі:  
+- groupadd <groupname> — створює нову групу користувачів у системі  
+- Параметри для створення користувачів :  
+   useradd <name> - створює нового користувача;  
+  -m — створити домашню директорію /home/<user>;  
+  -s Вказати shell/ -s /bin/bash встановити оболонку Bash;  
+  -G Додати у групу/ -G techsupport додати у групу techsupport;  
+  -s /usr/sbin/nologin - забороняє входити в систему;  
+- Показ тільки створених 5 груп - ```getent group techsupport developers financiers founders guests```  
+  
+  
+  ## Conclusion
 
 During the completion of this Work-Case, full user and group management was implemented within a Linux operating system. Three different command interpreters — bash, ksh, and dash — were installed and configured, with their basic capabilities demonstrated. Five separate user groups and exactly ten user accounts (two per group) were created. Each user was assigned an appropriate shell according to their role, while restricted groups were configured with the nologin shell to prevent system access.
 
