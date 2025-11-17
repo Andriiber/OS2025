@@ -172,8 +172,15 @@
 
 <p align="center"><img width="598" height="282" alt="image" src="https://github.com/user-attachments/assets/a94b749c-db13-4657-b457-0bd0d4b57963" />  </p>
 
-
 - \*які параметри команди *cat* треба використаети, щоб пронумерувати рядки файлу, відобразити недруковані символи, видалити порожні рядки?    
+
+<img width="322" height="112" alt="image" src="https://github.com/user-attachments/assets/f7319f86-51cc-40e3-82ee-5c4ed91a4143" />
+
+<img width="810" height="112" alt="image" src="https://github.com/user-attachments/assets/3ef6ae21-83e5-494b-8985-132e8b2f75e7" />
+
+<img width="316" height="107" alt="image" src="https://github.com/user-attachments/assets/817465b9-6fe1-4c99-8cd1-9bba6b538a27" />
+
+
 - \*\*опишіть можливості команди *dig* та навдіть приклади;  
 - \*\*опишіть можливості команди *netstat* та наведіть приклади.
 
