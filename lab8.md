@@ -310,3 +310,10 @@ aбо подивитись таблицю маршрутизації за доп
         ifconfig eth1
         
         Це відобразить параметри тільки інтерфейсу eth1, а не всіх мережевих пристроїв системи.
+
+   ## Conclusion
+   During the completion of the laboratory work, the stated goal was achieved , namely: practical skills in working with the Bash command shell were acquired, and the basic mechanisms for storing system service data were mastered.
+
+The structure of pseudo-filesystems, such as /proc and /sys, which are critical for obtaining information about processes and kernel status, was studied. Familiarization with the FHS standard provided an understanding of the file storage hierarchy, particularly the principle of organizing system log files in the /var/log directory.
+
+Furthermore, key commands for viewing, file manipulation (cat), and diagnosing network configuration (e.g., dig, netstat) were learned. Thus, the work reinforced the understanding of the Linux architecture, its structure, and improved the ability for system monitoring and basic troubleshooting.
