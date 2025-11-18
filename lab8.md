@@ -181,20 +181,29 @@
 
 <p align="center"><img width="332" height="102" alt="image" src="https://github.com/user-attachments/assets/6b01426a-2e48-4178-b89e-92a0df467f2f" />  </p>
 
-<p align="center">Після вводу команди треба натиснути ctrl+D, щоб завершити команду  </p>
+<p align="center">Створення файлу з допомогою команди "cat". Після вводу команди треба натиснути ctrl+D, щоб завершити команду  </p>
 
 <p align="center"><img width="302" height="91" alt="image" src="https://github.com/user-attachments/assets/743fab08-adc9-4670-b39b-4ca04b168dc0" />  </p>
 
+<p align="center"> Дивимось вміст текстового документу </p>
+
 <p align="center"><img width="598" height="282" alt="image" src="https://github.com/user-attachments/assets/a94b749c-db13-4657-b457-0bd0d4b57963" />  </p>
+
+<p align="center">на цьому етапі я робив перенаправлення інформації у інший файл, склеювання декількох файлів в один</p>
 
 - \*які параметри команди *cat* треба використаети, щоб пронумерувати рядки файлу, відобразити недруковані символи, видалити порожні рядки?    
 
 <p align="center"><img width="322" height="112" alt="image" src="https://github.com/user-attachments/assets/f7319f86-51cc-40e3-82ee-5c4ed91a4143" /></p>
 
+<p align="center"> Нумерування рядків параметром "-n" </p>
+
 <p align="center"><p align="center"><img width="810" height="112" alt="image" src="https://github.com/user-attachments/assets/3ef6ae21-83e5-494b-8985-132e8b2f75e7" /></p>
+
+<p align="center"> Відображення недрукованих символів параметром "-A" </p>
 
 <p align="center"><img width="316" height="107" alt="image" src="https://github.com/user-attachments/assets/817465b9-6fe1-4c99-8cd1-9bba6b538a27" /></p>
 
+<p align="center"> Видалення порожніх рядків параметром "-s" </p>
 
 - \*\*опишіть можливості команди *dig* та навдіть приклади;  
 
