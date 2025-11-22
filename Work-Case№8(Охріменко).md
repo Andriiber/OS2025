@@ -236,5 +236,74 @@ $ aafire
 
 <img width="1004" height="629" alt="image" src="https://github.com/user-attachments/assets/4cc98169-b59b-457b-b614-25fa10b1acce" />
 
+<h1>Glossary of terms</h1>
 
+Shell – Командний інтерпретатор, який приймає та виконує команди користувача.
 
+mc (Midnight Commander) – Текстовий файловий менеджер з панелями для роботи з файлами.
+
+lynx / w3m / links – Текстові браузери для перегляду веб-сторінок у терміналі.
+
+mutt / alpine – Термінальні поштові клієнти для читання та відправки електронної пошти.
+
+mpg123 / cmus – Термінальні музичні плеєри для відтворення аудіофайлів.
+
+rtorrent  – Термінальні торрент-клієнти для завантаження файлів.
+
+cal / remind / khal – Календар та нагадування в терміналі; планування завдань.
+
+fim / tiv – Термінальні переглядачі зображень (frame buffer або ASCII-арт).
+
+nano / vim / emacs / micro / joe – Текстові редактори в терміналі; підтримують редагування файлів без GUI.
+
+top / htop / glances / atom / nmon – Моніторинг процесів та ресурсів системи у терміналі.
+
+sl – Пакет для виведення анімації парового локомотиву у терміналі (пасхалка).
+
+telnet towel.blinkenlights.nl – Команда для перегляду ASCII-анімації Star Wars у терміналі.
+
+cowsay – Пакет для створення ASCII-корови, яка «говорить» введений текст.
+
+Ось перекладений висновок англійською мовою:
+
+---
+
+<h1>Conclusion</h1>
+
+During this task, we explored the capabilities of working with Linux through the terminal without a graphical user interface (GUI). The examples demonstrated that even without a GUI, a wide range of tasks can be performed:
+
+1. File management in the terminal
+
+Using mc (Midnight Commander), it is possible to conveniently browse and manage files and directories directly in the console.
+
+2. Web browsing
+
+Text-based browsers like w3m, lynx, elinks allow browsing websites in the terminal, for example, reading Wikipedia articles.
+
+3. Email
+
+Console mail clients mutt and alpine enable receiving, reading, and sending emails without a graphical interface.
+
+4. Listening to music
+
+Players like cmus or mpg123/mpv allow audio playback directly in the terminal.
+
+5. Downloading torrents
+
+Tools such as rtorrent and aria2 support full torrent downloading in the console.
+
+6. Planning and reminders
+
+Using cal, remind, khal, it is possible to view calendars, create reminders, and schedule tasks.
+
+7. Viewing images
+
+Programs like fim, catimg, tiv allow displaying images even in a text-based interface.
+
+8. Text editing
+
+Editors such as nano, vim, emacs, micro, joe enable creating, editing, and deleting text files.
+
+9. System monitoring
+
+Tools like top, htop, glances, atop, nmon provide detailed information about CPU, memory, disk, and network usage.
