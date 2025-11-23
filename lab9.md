@@ -285,33 +285,5 @@ UPG (User Private Group) — це модель керування правами
     
     -L / -U — блокувати / розблокувати обліковий запис
 
-
-
-Оформлення звіту:
-
-Титульний аркуш
-
-Тема та мета роботи
-
-Завдання попередньої підготовки
-
-Основні позиції ходу роботи
-
-Відповіді на контрольні запитання
-
-Висновки за результатами роботи (обов’язково!!!)
-
-Система оцінювання лабораторної роботи:
-
-Виконано завдання базового рівня складності - 3 бали
-
-Виконано завдання базового та середнього рівня складності - 4 бали 
-
-Виконано завдання всіх рівнів складності (в тому числі й підвищеного) - 5 балів
-
-Завдання середнього рівня складності позначені в завданнях (*)
-
-Завдання підвищеного рівня складності позначені в завданнях (**)
-
-Примітка: за виконання робіт в командах та оформлення звітів з використанням системи контролю версій (git) та англійської мови може бути нараховано додатковий 1 бал.
-
+## Conclusion
+While completing this laboratory work, I familiarized myself with the principles of system security and user management in Linux OS. I gained practical skills in working with the Bash shell, specifically learning how to create new user accounts and groups using the ```useradd``` and ```groupadd``` commands. I analyzed the structure of configuration files ```/etc/passwd``` and ```/etc/group``` , learned to modify group membership using the ```usermod``` command, and verified user identifiers (UID/GID) using ```id, grep, and getent```. Additionally, I practiced the process of safely deleting users and groups, ensuring that the system correctly updates group membership records.
