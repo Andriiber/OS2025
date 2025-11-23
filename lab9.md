@@ -153,27 +153,63 @@ UPG (User Private Group) — це модель керування правами
 
 - виведіть інформацію про поточного користувача різними способами (підказка використовуйте команди id та grep);
 
+<p align="center"> <img width="775" height="113" alt="image" src="https://github.com/user-attachments/assets/cc2342ed-cf50-4e8d-aee6-1fa70d73fb2c" /> </p>
+<p align="center">  </p>
+<p align="center">  </p>
+
 - *попрактикуйте в терміналі команди last, w та who. Порівняйте результати виводу кожної команди, які деталі відсутні в кожній із команд порівняно з іншими?
 
+<p align="center"> <img width="791" height="548" alt="image" src="https://github.com/user-attachments/assets/2770d125-471a-43d0-8eb3-a10f2fa6b3ec" /> </p>
+<p align="center"> ```w``` показує, що саме робить користувач прямо зараз, а ```last``` — історію входів. </p>
 - *створіть дві нові групи користувачів - super_admins, noob_users та good_students, визначте їх ідентифікатори;
+
+<p align="center"> <img width="321" height="201" alt="image" src="https://github.com/user-attachments/assets/9dd0d51c-e408-4865-9e32-42053a249792" />
+ </p>
 
 - *для кожного члену Вашої команди за допомогою терміналу створіть нового користувача (якщо працюєте самі, то просто трьох довільних користувачів), не забудьте після створення нового користувача одразу задати йому пароль;
 
+<p align="center"> <img width="336" height="489" alt="image" src="https://github.com/user-attachments/assets/d06a36e7-e393-45b4-ab8d-2248be72dcd2" />
+ </p>
+
 - **додайте нових користувачів у створені Вами нові групи таким чином, щоб у групах super_admins та noob_users було по 2 користувачі, один з яких є в обох групах, у групу good_students додайте всіх трьох користувачів;
+
+<p align="center"> <img width="612" height="96" alt="image" src="https://github.com/user-attachments/assets/d5fef6c0-76ec-43a6-9f66-e6f992608d66" />
+ </p>
 
 - **перегляньте інформацію про групи, та які користувачі до них входять, поясніть що ви бачите;
 
+<p align="center"> <img width="399" height="130" alt="image" src="https://github.com/user-attachments/assets/7e8ffbd9-5160-4e37-a229-dc3d207f1cdb" />
+ </p>
+
 - **видаліть першого створеного вами користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував;
+- 
+<p align="center"> <img width="480" height="89" alt="image" src="https://github.com/user-attachments/assets/e24eb2e1-cadc-4571-9626-492711a9abe9" />
+ </p>
 
 - **видаліть другого користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував; 
 
+<p align="center"> <img width="473" height="92" alt="image" src="https://github.com/user-attachments/assets/0ab3a2ce-f2e6-492b-9735-0fe7b9407f4d" />
+ </p>
+
 - **видаліть третього користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував; 
+
+<p align="center"> <img width="479" height="97" alt="image" src="https://github.com/user-attachments/assets/ac55a3e8-7a65-4f8a-9546-03d6b68ce2fb" />
+ </p>
 
 - **перегляньте інформацію про існуючі групи користувачів;
 
+<p align="center"> <img width="304" height="95" alt="image" src="https://github.com/user-attachments/assets/5754f80f-9a02-4892-afed-3b5e27fff231" />
+ </p>
+
 - **видаліть створені Вами групи користувачів;
 
+<p align="center"> <img width="380" height="56" alt="image" src="https://github.com/user-attachments/assets/e4a85778-cf67-4121-88f4-ab942e81da1c" />
+ </p>
+
 - **перегляньте інформацію про існуючі групи користувачів.
+
+ <p align="center"> <img width="387" height="53" alt="image" src="https://github.com/user-attachments/assets/c4a08ad7-4b2e-4745-a89f-b357f37e7e0b" />
+ </p>
  
 Контрольні запитання:
 
