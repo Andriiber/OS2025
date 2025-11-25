@@ -153,3 +153,109 @@ Cron — це системний демон у Linux/Unix, який запуск
 
 
 3. Встановіть альтернативний Cron’у планувальник задач (на Ваш вибір). Виконані у завданні 2 дії продемонструйте через нього.
+
+Встановлення альтернативи Cron та виконання тих самих задач
+
+Обираємо systemd timers як найпотужнішу сучасну альтернативу.
+
+systemd timers - замінник cron, інтегрований у systemd. Дає змогу запускати завдання за розкладом з точністю до секунд, логуванням та залежностями.
+
+3.1. Створення systemd service
+
+sudo apt install 
+
+Файл:
+
+    /etc/systemd/system/backup.service
+    
+    [Unit]
+    Description=Backup script
+    
+    [Service]
+    Type=oneshot
+    ExecStart=/home/user/scripts/backup.sh
+
+3.2. Створення timer
+Приклад щоденного запуску о 08:00:
+
+Файл:
+
+    sudo nano /etc/systemd/system/backup.timer
+    
+    [Unit]
+    Description=Daily backup at 08:00
+    
+    [Timer]
+    OnCalendar=*-*-* 08:00:00
+    Persistent=true
+    
+    [Install]
+    WantedBy=timers.target
+
+Активувати:
+
+    sudo systemctl daemon-reload
+    sudo systemctl enable backup.timer
+    sudo systemctl start backup.timer
+
+3.3. Приклади еквівалентів з пункту 2 через systemd timers
+
+1. Двічі на день (10:00 і 22:00)
+
+        OnCalendar=*-*-* 10:00:00
+        OnCalendar=*-*-* 22:00:00
+
+2. Лише у будні з 8 до 18
+
+        OnCalendar=Mon..Fri 08..18:00
+
+3. Раз на місяць
+
+        OnCalendar=monthly
+
+4. Раз на рік
+
+        OnCalendar=yearly
+
+5. При завантаженні
+
+        [Timer]
+        OnBootSec=1min
+
+
+<h1>Glossary of terms</h1>
+
+
+Task Scheduler - Планувальник задач — системна служба для автоматичного запуску програм або скриптів у заданий час або за умовами.
+
+Cron - Планувальник задач у Linux, який виконує команди у визначений час або періодично.                                
+
+Crontab - Файл або інструмент для редагування задач Cron; зберігає список команд для планування.                            
+
+Shebang (#!/bin/bash) - Перша рядок скрипта, вказує Linux, яким інтерпретатором запускати скрипт.                                         
+
+Script - Скрипт — файл із серією команд, які можна виконати автоматично.                                                                                                           
+
+Systemd - Система ініціалізації і менеджер сервісів у сучасних Linux для керування процесами та задачами.                   
+
+Systemd service - Файл конфігурації (.service) для systemd, який описує, як запускати програму чи скрипт.                         
+
+Systemd timer - Файл конфігурації (.timer) для systemd, який планує запуск сервісу у визначений час або при завантаженні.       
+
+@reboot - Спеціальний тригер в Cron, що означає “запускати після перезавантаження системи”.                                
+
+OnCalendar - Параметр в systemd timer, що задає час і частоту запуску сервісу.                                                 
+
+Persistent=true - Параметр systemd timer, який дозволяє виконати пропущені завдання після вимкнення системи.                        
+
+Tar / gzip (tar -czf) - Команда Linux для архівування та стиснення файлів.                                                                
+
+Backup - Резервне копіювання файлів чи каталогів для збереження даних.                                                     
+
+Cleanup - Очищення тимчасових або непотрібних файлів.             
+
+<h1>Conclusion</h1>
+
+During the completion of this work-case, the mechanisms of task scheduling in operating systems were thoroughly examined, and their practical application was implemented using Linux as an example. A task scheduler allows for the automation of program, script, and command execution at specified times or under certain conditions, significantly simplifying system administration and ensuring the regularity of routine operations.
+The practical part of the work-case included creating scripts for cleaning directories, backing up files, archiving, and running tasks at system startup. Instructions were provided on how to configure crontab for executing tasks at different time intervals: daily, hourly, twice a day, on weekdays or weekends, as well as once a month or once a year. To ensure reliable execution after system startup, systemd timers were used as a modern alternative to Cron.
+Automating tasks in Linux using Cron and systemd timers enhances administrative efficiency, guarantees regular backups, and maintains system support without continuous user intervention. These tools are powerful and flexible for solving a wide range of system management tasks.
