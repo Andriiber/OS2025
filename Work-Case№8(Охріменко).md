@@ -200,7 +200,7 @@ telnet towel.blinkenlights.nl
 
 Команда:
 
-cowsay "Привіт, я корова!"
+cowsay "Hello ksm33"
 
 <img width="616" height="339" alt="image" src="https://github.com/user-attachments/assets/3530e44f-fa24-4d57-8be4-762d7ccdc9cd" />
 
